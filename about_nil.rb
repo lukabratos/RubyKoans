@@ -33,6 +33,8 @@ class AboutNil < Neo::Koan
     # or
     #    obj == nil
     # Why?
+    # Everything in Ruby is an object. Even nil has it's own methods. So first example is more like Ruby thing of comparing if object is nil. Second example is more often used in other programming languages.
+    
   end
-  
+
 end
