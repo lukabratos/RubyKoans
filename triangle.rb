@@ -14,6 +14,8 @@
 #   about_triangle_project_2.rb
 #
 def triangle(a, b, c)
+	x, y, z = [a,b,c].sort
+	raise TriangleError if x + y <= z
 	raise TriangleError, "Error" if [a, b, c].min <= 0
 	case [a, b, c].uniq.size
 		when 1; :equilateral
