@@ -56,7 +56,7 @@ class AboutConstants < Neo::Koan
     LEGS = 2
 
     class Bird < Animal
-      p Module.nesting
+      #p Module.nesting
       def legs_in_bird
         LEGS
       end
@@ -74,7 +74,7 @@ class AboutConstants < Neo::Koan
   # ------------------------------------------------------------------
 
   class MyAnimals::Oyster < Animal
-    p Module.nesting
+    #p Module.nesting
     def legs_in_oyster
       LEGS
     end
